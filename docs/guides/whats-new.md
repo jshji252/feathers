@@ -20,7 +20,7 @@ You can find the shiny new TypeScript packages on GitHub, [here](https://github.
 
 ### Typed Client
 
-Feathers has had an isomorphic API - working equally well in browser and server - since 2016. Now with Dove, our [new CLI](#rebuilt-cli) generates **shared types for the Feathers server and client**. We even integrated the types with our new [schemas feature](#official-schemas), so you define your types once, in a single location, and use them everywhere. Everything still uses Feathers tried and proven [standard HTTP and websocket](../api/client.md) communication mechanism. There is no custom protocol or the slow parsing of a domain specific language (like GraphQL) necessary and since it is all plain TypeScript with type information removed at compile time, there is also no bundle size overhead.
+Feathers has had an isomorphic API - working equally well in browser and server - since 2016. Now with Dove, our [new CLI](#rebuilt-cli) generates **shared types for the Feathers server and client**. We even integrated the types with our new [schemas feature](#official-schemas), so you define your types once, in a single location, and use them everywhere. Everything still uses Feathers' tried and proven [standard HTTP and websocket](../api/client.md) communication mechanism. There is no custom protocol or the slow parsing of a domain specific language (like GraphQL) necessary and since it is all plain TypeScript with type information removed at compile time, there is also no bundle size overhead.
 
 Thanks to FeathersJS's clean, modular, loosely-coupled architecture, it was pleasantly simple to add this feature. This is another one of the benefits we get from building a pattern-driven framework.
 
